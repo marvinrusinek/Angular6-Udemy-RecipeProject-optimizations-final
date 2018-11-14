@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MyFirstApp</title>
+  <base href="/ng-recipe-book/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+
+  <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDzKx-3Ex7bnwFlgdWrZtdNErWw1lBjo5s",
+      authDomain: "ng-recipe-book-4581e.firebaseapp.com",
+      databaseURL: "https://ng-recipe-book-4581e.firebaseio.com",
+      projectId: "ng-recipe-book-4581e",
+      storageBucket: "ng-recipe-book-4581e.appspot.com",
+      messagingSenderId: "885900367965"
+    };
+    firebase.initializeApp(config);
+  </script>
+</body>
+</html>
